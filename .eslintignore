@@ -1,0 +1,5 @@
+dist/**
+src/generated
+client/dist/**
+client/src/generated
+src/imported.js
