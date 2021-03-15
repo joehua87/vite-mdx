@@ -64,7 +64,7 @@
     "cleancss": "cleancss -o dist/style.css dist/style.css",
     "prod:css": "NODE_ENV=production postcss src/styles/index.css -o dist/style.css",
     "dev:css": "postcss src/styles/index.css -o public/style.css -m",
-    "prebuild": "ts-node -P tsconfig.node.json make-css-safelist.ts && rimraf dist",
+    "prebuild": "rimraf dist",
     "build": "vite build && yarn prod:css && yarn cleancss"
   }
 }
