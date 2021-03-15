@@ -22,7 +22,6 @@
   },
   "exclude": [
     "dist",
-    "**/tests/**",
-    "vite.config.ts"
+    "**/tests/**"
   ]
 }
